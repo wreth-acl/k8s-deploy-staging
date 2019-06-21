@@ -6,13 +6,13 @@
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
             "aggregation" : "avg",
             "tags" : "app:carts,environment:dev",
-            "upperLimit" : 1000
+            "upperSevere": 1000
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
             "aggregation" : "percentile",
             "tags" : "app:carts,environment:dev",
-            "upperLimit" : 1000
+            "upperSevere": 1000
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.requests",
@@ -30,7 +30,7 @@
             "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
             "tags" : "app:carts,environment:dev",
-            "upperLimit" : 0
+            "upperSevere": 0
         }
     ]
 }
